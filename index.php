@@ -1,6 +1,6 @@
 <?php
 function tea(){
-    $location = 'error.php';
+    $location = '/teapot/error.php';
     header("Location: " . "http://" . $_SERVER['HTTP_HOST'] . "/" . $location);
 }
 if (isset($_GET['tea'])) {
